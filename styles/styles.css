@@ -1,0 +1,59 @@
+body{
+  box-sizing: border-box;
+}
+img:not(.image-footer img){
+  height: 20rem;
+  width: 20rem;
+  border-style: solid;
+  border-color: lightgray;
+  padding: 3rem;
+  margin: 1rem;
+}
+li {
+  display: inline-block;
+  /* border-style: double;
+  border-color: gray; */
+}
+.image-footer img{
+  border-radius: 3px;
+  height: 2rem;
+  width: 2rem;
+}
+/* ul.octodex {
+  text-align: center;
+} */
+
+ul.authors{
+  position: absolute;
+  text-align: right;
+  right: 16px;
+  top: 0px;
+
+}
+.image-caption {
+  text-align: center;
+  /* display: inline-block; */
+}
+
+.image-footer{
+  position: relative;
+  /* text-align: center; */
+}
+.image-number{
+  left: 16px;
+  position: absolute;
+  color: lightgray;
+}
+a {
+ color: black;
+ text-decoration-style: solid;
+ text-decoration-line: none;
+ font-weight: bold;
+ font-family: sans-serif;
+
+}
+span {
+  color: gray;
+  font-weight: bold;
+  font-family: sans-serif;
+}
