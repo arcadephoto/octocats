@@ -8,31 +8,36 @@ img:not(.image-footer img){
   border-color: lightgray;
   padding: 3rem;
   margin: 1rem;
+  margin-bottom: 0;
 }
 li {
   display: inline-block;
   /* border-style: double;
   border-color: gray; */
 }
+
+
 .image-footer img{
   border-radius: 3px;
   height: 2rem;
   width: 2rem;
 }
-/* ul.octodex {
-  text-align: center;
-} */
 
-ul.authors{
-  position: absolute;
-  text-align: right;
-  right: 16px;
+
+ul.authors {
+  float: right;
+  display: inline-block;
+  /* position: absolute;
+  text-align: right; */
+  margin-right: 16px;
   top: 0px;
+  padding-left: .5rem;
 
 }
 .image-caption {
-  text-align: center;
-  /* display: inline-block; */
+float: right;
+
+
 }
 
 .image-footer{
@@ -45,6 +50,7 @@ ul.authors{
   color: lightgray;
 }
 a {
+  vertical-align: sub;
  color: black;
  text-decoration-style: solid;
  text-decoration-line: none;
@@ -53,6 +59,7 @@ a {
 
 }
 span {
+  vertical-align: sub;
   color: gray;
   font-weight: bold;
   font-family: sans-serif;
