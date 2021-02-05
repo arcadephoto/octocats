@@ -64,3 +64,13 @@ span {
   font-weight: bold;
   font-family: sans-serif;
 }
+
+.octocat{
+  border-bottom: lightgray;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-width: thin;
+
+}
